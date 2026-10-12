@@ -404,6 +404,10 @@ nav {
 	color:#5D5D5D;
 }
 
+.YTvideo {
+	width: 500px;
+	height: 325px;
+}
 /*------------------------- Card Grid ---------------------*/
 .card-grid {
     display: grid;
@@ -581,6 +585,16 @@ nav {
 		margin-left: 150px;
 	}
 
+@media screen and (min-width: 768px) {
+	.YTvideo {
+		width:715px;
+		height:355px;
+		}
+}
+
+
+	
+
 @media (min-width: 1024px) {
 .header {
 	background:url(../images/bg-navigation.jpg) no-repeat left 90px;
@@ -601,4 +615,12 @@ nav {
 	justify-content: right;
 	align-items: right;
 }
+}
+
+@media screen and (min-width: 1024px) {
+	.YTvideo{
+	width: 900px;
+	height: 500px;
+	}
+
 }
