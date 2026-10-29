@@ -166,6 +166,12 @@ nav {
 	overflow:hidden;
 }
 
+.about {
+	box-sizing: border-box;
+	width: 100%;
+	height: 100%;
+	font-family: 'RokkittRegular';
+	margin-left: 20px;
 }
 .body div#featured{
 	height:448px;
