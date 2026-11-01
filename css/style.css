@@ -868,4 +868,9 @@ nav {
 .iframe-column iframe {
     width: 88%
 }
+
+.footer {
+    display: flex;
+    justify-content: center;
+}
 }
